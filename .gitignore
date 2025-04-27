@@ -1,0 +1,85 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build and distribution files
+dist/
+build/
+coverage/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.editorconfig
+
+# Temporary files
+.tmp/
+.temp/
+tmp/
+temp/
+
+# Database files
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AWS credential files
+.aws/
+aws-credentials.json
+
+# Testing
+coverage/
+.nyc_output/
+
+# Documentation
+docs/
+
+# Cache files
+.cache/
+.eslintcache
+.parcel-cache/
+
+# Production build output
+*.min.js
+*.min.css
+
+# Optional: Uncomment if using TypeScript
+# *.tsbuildinfo
+# dist-types/
+
+# Optional: Uncomment if using yarn v2
+# .yarn/*
+# !.yarn/patches
+# !.yarn/releases
+# !.yarn/plugins
+# !.yarn/sdks
+# !.yarn/versions
+# .pnp.* 
